@@ -35,14 +35,14 @@ License: Free to use for personal and commercial, but you need to place back lin
 body {
     font-size: 16px;
     font-family: 'Source Lalezar', Lalezar;
-	font-color: Snow;
+	font-color: white;
     -webkit-font-smoothing: antialiased;
     background: #E4E4E4;
-	-webkit-text-stroke: 1px black;
+	-webkit-text-stroke: 0.2px black;
 }
 
 ::selection {
-    color: #fff;
+    color: blue;
     background: #CC4646;
 }
 
@@ -86,7 +86,7 @@ p {
 
     .button-outline:hover {
         color: #fff;
-        background: rgba(255,255,255,0.35);
+        background: rgba(255,255,255,1);
     }
 
 a {
@@ -437,7 +437,8 @@ background: none;
 }
 /*Intro Content*/
 #introText {
-padding:50px 0;
+font-family: 'Source Lalezar', Lalezar;
+padding:40px 0;
 background:#fff;
 }
 
@@ -450,7 +451,7 @@ font-size: 58px;
 color: #5E5E5E;
 }
 .tileBox p{
-    background-color: #f0f0f0;
+background-color: #f0f0f0;
 font-size: 15px;
 color: #777777;
 padding: 20px;
@@ -473,7 +474,7 @@ color: #FDFDFD !important;
 .skilltitle {
 text-align: right;
 font-weight: 600;
-padding-right: 0px;
+padding-right: px;
 }
 .progress {
 border-radius: 0px;
@@ -524,7 +525,9 @@ background-color: #CC4646;
   border-bottom-left-radius: 50%;
 }
 #timeline .timeline-badge span.timeline-balloon-date-day {
-  font-size: 1.4em;
+  font-size: 1.2em;
+  position: relative;
+  bottom: -10px;  
 }
 #timeline .timeline-badge span.timeline-balloon-date-month {
   font-size: 13px;
